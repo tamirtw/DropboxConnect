@@ -1,0 +1,28 @@
+DropboxConnect
+
+THANKS
+_______
+This plugin is based on dropbox-php written by Evert under MIT License
+http://code.google.com/p/dropbox-php/
+
+INFO
+____
+This plugin intends to simplify connecting to a dropbox account 
+even more. Meaning you can use it even without having either:
+ 	a. PHP's OAuth Extension
+	b. PEAR's HTTP_OAUTH package
+
+Unless stated otherwise it will first check if 
+PHP's OAuth Extension or PEAR's HTTP_OAUTH package
+are available (in that order) and will fall back 
+to a PEAR package emulation. Thus , enabling you
+the connection even if you don't have the above 
+installed on your host.
+
+HOW TO USE
+__________
+See the examples in the 'Examples' folder. 
+*more complete examples with documentation in the future  
+
+NOTES
+_____
